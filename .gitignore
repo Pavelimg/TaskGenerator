@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Генерируемые материалы
+Результаты/*
+!Результаты/.gitkeep
+
+# Служебные файлы LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Старые каталоги вывода
+/output/
+/pdf/
